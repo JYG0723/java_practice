@@ -31,6 +31,30 @@ public class MapForeeach {
         map.forEach((k, v) -> System.out.println(k + ": " + v));
     }
 
+    private static void mapForEachTest() {
+        Map<Integer, String> map = new HashMap<>();
+        for (Map.Entry<Integer, String> entry :
+                map.entrySet()) {
+            System.out.println((entry.getKey() + ": " + entry.getValue()));
+        }
+
+        // forEach的函数逻辑就是每迭代一次的时候运行一下BiConsumer的accept函数
+        map.forEach(new BiConsumer<Integer, String>() {
+            @Override
+            public void accept(Integer integer, String s) {
+                System.out.println((integer + ": " + s));
+            }
+        });
+
+        map.forEach((key, value) -> {
+            if (String.valueOf(key).equals(value)) {
+                System.out.println(key);
+            }
+            //
+            System.out.println(value);
+        });
+    }
+
     public static void main(String[] args) {
         mapForeachTest();
     }

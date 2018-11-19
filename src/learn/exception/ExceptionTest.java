@@ -1,4 +1,4 @@
-package exception;
+package learn.exception;
 
 /**
  * @author Ji YongGuang.
@@ -14,7 +14,7 @@ public class ExceptionTest {
         try {
             ret = testEx1();
         } catch (Exception e) {
-            System.out.println("testEx, catch exception");
+            System.out.println("testEx, catch learn.exception");
             ret = false;
             throw e;
         } finally {
@@ -33,7 +33,7 @@ public class ExceptionTest {
             System.out.println("testEx1, at the end of try");
             return ret;
         } catch (Exception e) {
-            System.out.println("testEx1, catch exception");
+            System.out.println("testEx1, catch learn.exception");
             ret = false;
             throw e;
         } finally {
@@ -55,7 +55,7 @@ public class ExceptionTest {
             }
             return true;
         } catch (RuntimeException e) {
-            System.out.println("testEx2, catch exception");
+            System.out.println("testEx2, catch learn.exception");
             ret = false;
             throw e;
         } finally {

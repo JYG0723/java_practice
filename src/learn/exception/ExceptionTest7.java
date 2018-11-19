@@ -1,4 +1,4 @@
-package exception;
+package learn.exception;
 
 import java.io.FileNotFoundException;
 

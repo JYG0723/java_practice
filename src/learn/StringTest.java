@@ -1,3 +1,5 @@
+package learn;
+
 /**
  * @author Ji YongGuang.
  * @date 20:24 2018/10/23.

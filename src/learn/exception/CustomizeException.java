@@ -1,4 +1,4 @@
-package exception;
+package learn.exception;
 
 /**
  * @author Ji YongGuang.
