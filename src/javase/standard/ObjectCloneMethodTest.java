@@ -1,4 +1,4 @@
-package java.standard;
+package javase.standard;
 
 import java.util.logging.Logger;
 

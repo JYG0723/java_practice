@@ -1,4 +1,4 @@
-package java.standard.exception;
+package javase.standard.exception;
 
 import java.io.FileNotFoundException;
 

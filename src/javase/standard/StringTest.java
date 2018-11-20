@@ -1,4 +1,4 @@
-package java.standard;
+package javase.standard;
 
 /**
  * @author Ji YongGuang.

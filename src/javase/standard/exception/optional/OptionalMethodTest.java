@@ -1,4 +1,4 @@
-package java.standard.exception;
+package javase.standard.exception.optional;
 
 import java.util.Optional;
 
@@ -13,7 +13,6 @@ public class OptionalMethodTest {
         Optional optional = Optional.of("optional");
         Optional nullAble = Optional.ofNullable("hikari");
         Optional emptyOptional = Optional.empty();
-
         // 返回Optional容器中实际存储的value(T)
         emptyOptional.get();
         // 是否该Optional容器存储的value不为null

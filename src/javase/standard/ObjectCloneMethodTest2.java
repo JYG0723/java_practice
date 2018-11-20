@@ -1,4 +1,4 @@
-package java.standard;
+package javase.standard;
 
 /**
  * @author Ji YongGuang.
@@ -24,5 +24,7 @@ public class ObjectCloneMethodTest2 implements Cloneable{
         System.out.println(target.name == objectCloneMethodTest2.name);
         // true 浅拷贝，指向了同一对象
         System.out.println(target.objectCloneMethodTest == objectCloneMethodTest2.objectCloneMethodTest);
+
+
     }
 }
